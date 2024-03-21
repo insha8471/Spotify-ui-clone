@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="cursor invert" src="svg/logo.svg" alt="logo"></div>
+                <ul>
+                    <li class="cursor">
+                        <a href="index.html">
+                            <img class="invert" src="svg/home.svg" alt="home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cursor search-btn"><img class="invert" src="svg/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <div class="l-side">
+                        <img class="cursor invert" src="svg/library.svg" alt="playlist">
+                        <h2 class="cursor">Your Library</h2>
+                    </div>
+                    <div class="r-side">
+                        <img class="cursor invert" src="svg/plus.svg" alt="plus">
+                    </div>
+                    
+                </div>
+
+                <section class="rounded p-1">
+                    <div class="box">
+                        <p>Create your first playlist</p>
+                        <p>It's easy, we'll help you</p>
+                        <button class="cursor">Create Playlist</button>
+                    </div>
+                    
+                </section>
+                
+                <div class="footer">
+                <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy Center</span></a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                <div>
+                    <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span>Cookies</span></a>
+                </div>
+                </div>
+                
+
+                <div class="location cursor">
+                        <svg class="invert" aria-hidden="true" viewBox="0 0 16 16">
+                            <path d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z"></path>
+                        </svg>
+                        <p>English</p>
+                </div>
+                      
+                </div>
+                
+        </div>
+
+<!--***************************Right side container*****************************************-->
+         <div class="right rounded">
+
+            <div class="header">
+                <div class="nav">
+                    <div class="cursor cir-style">
+                        <svg class="invert" data-encore-id="icon" role="img" aria-hidden="true" class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16"><path d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"></path></svg>
+                    </div>
+
+                    <div class="cursor cir-style">
+                        <svg class="invert" data-encore-id="icon" role="img" aria-hidden="true" class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16"><path d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"></path></svg>
+                    </div>
+                    
+                    <div class="search">
+                        <div class="inner-search">
+                            <img class="invert" src="svg/search.svg">
+                            <input type="text" spellcheck="true" placeholder="What do you want to play?">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="button">
+                    <button class="cursor">Sign up</button>
+                    <a href="login_page.html" class="cursor loginBtn">Login</a>
+                </div>
+            </div>
+
+
+            <!--************************ Spotify playlist ****************************-->
+            
+            <div class="container-playlist">
+                <div class="spotify-playlist">
+                <div class="playlist-header">
+                    <h1 class="cursor">Popular artists</h1>
+                    <p class="cursor">show all</p>
+                </div>
+                
+                <div class="card-container">
+                    
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="spotify-playlist">
+                <div class="playlist-header">
+                    <h1 class="cursor">Popular artists</h1>
+                    <p class="cursor">show all</p>
+                </div>
+                
+                <div class="card-container">
+                    
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div> 
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="spotify-playlist">
+                <div class="playlist-header">
+                    <h1 class="cursor">Popular artists</h1>
+                    <p class="cursor">show all</p>
+                </div>
+                
+                <div class="card-container">
+                    
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="spotify-playlist">
+                <div class="playlist-header">
+                    <h1 class="cursor">Popular artists</h1>
+                    <p class="cursor">show all</p>
+                </div>
+                
+                <div class="card-container">
+                    
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="card rounded cursor">
+                        <div class="play-btn">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </div>
+                        <img src="pritam.jpg">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+            </div>
+        
+            <!--*******************End of playlist***********************************-->
+
+
+
+            <!--***************************** footer   ************************************-->
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="footer-left">
+                    <div class="col">
+                        <p>Company</p>
+                        <a href="#">About</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">For the Record</a>
+                    </div>
+                    <div class="col">
+                        <p>Communities</p>
+                        <a href="#">For Artists</a>
+                        <a href="#">Developer</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Vendors</a>
+                    </div>
+                    <div class="col">
+                        <p>Useful Links</p>
+                        <a href="#">Support</a>
+                        <a href="#">Free Mobile App</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div>
+                        <img class="invert" src="svg/insta.svg" alt="Instagram">
+                    </div>
+                    <div>
+                        <img class="invert" src="svg/twitter.svg" alt="Twitter">
+                    </div>
+                    <div>
+                        <img class="invert" src="svg/fb.svg" alt="Facebook">
+                    </div>
+                </div>
+            </div>
+
+            <div class="horizontal-line"></div>
+            <div class="copy-right">
+                <p>© 2024 Spotify AB</p>
+            </div>
+        </div>
+
+
+        <!--***************************** footer end  ************************************-->
+
+        </div> 
+
+   
+        </div>  
+<!--******************************************* End of right ****************************-->
+    </div>
+    
+    <!--javaScript-->
+    <script src="app.js"></script>
+</body>
+</html>
